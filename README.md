@@ -1,10 +1,10 @@
-# Databases and Text Editors
+# Writing Database Commands to a File
 
-## Objectives
+## Learning Goals
 
-- Write SQL code in your text editor instead of your command line.
+- Write SQL code in your text editor instead of your command line
 - Learn how to execute SQL code you've written in your text editor against a
-  database you've created.
+  database you've created
 
 ## Writing SQL in a Text Editor
 
