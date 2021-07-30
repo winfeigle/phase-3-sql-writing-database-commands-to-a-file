@@ -92,8 +92,8 @@ CREATE TABLE cats (
 
 ### Operating on our Database from the Text Editor
 
-To carry out any subsequent actions on this database &mdash; adding a column to the
-cats table, dropping that table, creating a new table &mdash; we can create new `.sql`
+To carry out any subsequent actions on this database — adding a column to the
+cats table, dropping that table, creating a new table — we can create new `.sql`
 files in the text editor and execute them in the same way as above. Let's give
 it a shot.
 
