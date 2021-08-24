@@ -32,13 +32,13 @@ together in the following code along.
 
 In the terminal, create a database with the following command:
 
-```sh
-sqlite3 pets_database.db
+```console
+$ sqlite3 pets_database.db
 ```
 
 Once you create your database, exit the sqlite prompt with the `.quit` command:
 
-```sh
+```console
 sqlite> .quit
 ```
 
@@ -58,8 +58,8 @@ Execute that file in the command line. _Before running the command below,
 make sure that you've exited the SQLite prompt that you were in earlier when you
 created the database._
 
-```sh
-sqlite3 pets_database.db < 01_create_cats_table.sql
+```console
+$ sqlite3 pets_database.db < 01_create_cats_table.sql
 ```
 
 **Note:** If running the above command gives you an error that the Cats table
@@ -109,8 +109,8 @@ ALTER TABLE cats ADD COLUMN breed TEXT;
 
 Then, execute the file in your command line:
 
-```sh
-sqlite3 pets_database.db < 02_add_column_to_cats.sql
+```console
+$ sqlite3 pets_database.db < 02_add_column_to_cats.sql
 ```
 
 Confirm that your execution of the `.sql` file worked by entering into your
